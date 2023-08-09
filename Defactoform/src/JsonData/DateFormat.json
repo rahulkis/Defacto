@@ -1,0 +1,47 @@
+[
+	{
+		"id":1,
+		"value": "yyyy-mm-dd",
+		"label": "yyyy-mm-dd"
+	},
+	{
+		"id":2,
+		"value": "dd-mm-yyyy",
+		"label": "dd-mm-yyyy"
+	},
+	{
+		"id":3,
+		"value": "mm-dd-yyyy",
+		"label": "mm-dd-yyyy"
+	},
+	{
+		"id":4,
+		"value": "yyyy/mm/dd",
+		"label": "yyyy/mm/dd"
+    },
+    {
+		"id":5,
+		"value": "dd/mm/yyyy",
+		"label": "dd/mm/yyyy"
+    },
+    {
+		"id":6,
+		"value": "mm/dd/yyyy",
+		"label": "mm/dd/yyyy"
+    },
+    {
+		"id":7,
+		"value": "yyyy.mm.dd",
+		"label": "yyyy.mm.dd"
+    },
+    {
+		"id":8,
+		"value": "dd.mm.yyyy",
+		"label": "dd.mm.yyyy"
+    },
+    {
+		"id":9,
+		"value": "mm.dd.yyyy",
+		"label": "mm.dd.yyyy"
+    }
+]

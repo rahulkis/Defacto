@@ -1,0 +1,59 @@
+.editor {
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    cursor: text;
+    padding: 16px;
+    border-radius: 2px;
+    margin-bottom: 2em;
+    box-shadow: inset 0px 1px 8px -3px #ABABAB;
+    background: #fefefe;
+  }
+  
+  .editor :global(.public-DraftEditor-content) {
+    min-height: 140px;
+  }
+  
+  .options {
+    margin-bottom: 20px;
+  }
+  .draftJsEmojiPlugin__buttonWrapper__1Dmqh {
+    display: inline-block;
+    line-height: normal;
+}
+.draftJsEmojiPlugin__buttonWrapper__1Dmqh button {
+    border:none;
+
+}
+.draftJsEmojiPlugin__alignmentTool__2mkQr {
+  line-height: normal;
+  display: none;
+  top: 0 !important;
+  left: 0 !important;
+  transform: none !important;
+
+}
+.DraftEditor-root:focus-within .draftJsEmojiPlugin__alignmentTool__2mkQr {
+  display: block;
+}
+
+.draft-alignment-editor figure {
+  /* height: 100vh; */
+  overflow: hidden;
+}
+
+
+.err-msg{
+  color: red;
+  font-size: 13px;
+  display: none;
+  font-weight: 400
+}
+.err{
+  border: 1px solid red;
+}
+.Address__input {
+  min-width: 30%;
+  flex: 1 0 300px;
+  max-width: calc(100% - 20px);
+  margin-right: 20px;
+}

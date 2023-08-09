@@ -1,0 +1,145 @@
+.echos-list-page {
+  .echos-list-section {
+    .echo-row-item {
+      .echo-connection-icon {
+        width: 30px;
+        height: 30px;
+        border: 0.5px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+
+  .echo-sidebar-title {
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .echos-list-loader {
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .pocket-name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 60px;
+    font-size: 16px;
+  }
+
+  .echo-list-sidebar-wrapper {
+    flex: 0 1 275px;
+    max-width: 275px;
+    min-width: 275px;
+  }
+
+  .echo-list-content-wrapper {
+    max-width: calc(100% - 276px);
+  }
+}
+
+.modal-content {
+  margin-left: 155px;
+  width: 60%;
+}
+
+.echos-detail-page {
+  .echos-detail-page-header {
+    .jr-profile-banner:before {
+      background-color: rgb(74, 91, 185) !important;
+    }
+    .jr-fs-lg {
+      font-size: 20px !important;
+    }
+
+    .jr-profile-banner-avatar {
+      height: 220px;
+      width: 220px;
+      background: #6c80f5;
+      border-radius: 10px;
+    }
+
+    .jr-profile-banner-avatar-multiple {
+      height: 220px;
+      background: #6c80f5;
+      border-radius: 10px;
+      margin-right: 1.5rem;
+    }
+
+    .jr-profile-banner-avatar-icon {
+      padding: 90px 21px;
+    }
+    .jr-profile-banner-avatar-icon-double {
+      padding: 82px 52px;
+    }
+
+    .jr-profile-banner-avatar-icon-single {
+      padding: 90px 88px;
+    }
+    .nodes-icons {
+      border: 1px solid;
+      padding: 5px;
+      border-radius: 10px;
+      background-color: rgb(255, 255, 255);
+      font-size: 20px;
+      font-weight: 500;
+      display: inline-block;
+      margin-bottom: 10px;
+    }
+
+    .jr-profile-banner-avatar-icon-empty {
+      padding: 98px 66px;
+    }
+
+    .pocket {
+      background-color: rgb(96, 100, 105);
+      padding: 0px 6px;
+      border-radius: 10px;
+      .icon {
+        padding-top: 18px;
+      }
+    }
+  }
+
+  .echos-detail-page-overview {
+    .echos-detail-page-overview-heading {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .echos-detail-page-overview-label {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .echos-detail-page-overview-icon {
+      font-size: 16px !important;
+    }
+  }
+
+  .overview-connected-apps {
+    .heading {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .card {
+      border: 1px solid #eee;
+      margin-bottom: 15px;
+      width: 100%;
+      box-shadow: 0 1px 8px -1px rgba(0, 0, 0, 0.2);
+
+      .card-body {
+        padding: 10px 24px;
+      }
+    }
+    .card:hover {
+      box-shadow: 0 8px 8px -1px rgba(0, 0, 0, 0.4);
+    }
+  }
+}

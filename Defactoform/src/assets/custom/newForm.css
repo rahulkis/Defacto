@@ -1,0 +1,146 @@
+.newform_inner {
+  background: #fff;
+  height: 80vh;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 25px 100px -20px;
+}
+.dashboard_button {
+  text-align: right;
+}
+.dashboard_button button {
+  height: 38px;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 1;
+  color: #79a4ca;
+  background-color: #fff;
+  font-weight: 400;
+  font-family: Lato;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 38px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  user-select: none;
+  transform: translateY(0);
+  transition: all 0.3s;
+  border: 1px solid rgba(121, 164, 202, 0.3);
+  margin-top: 25px;
+  margin-right: 25px;
+}
+.dashboard_button button:hover {
+  box-shadow: 0 4px 15px -5px rgba(121, 164, 202, 0.3);
+}
+.form_button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.form_heading {
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 18px;
+  font-size: 27px;
+  color: #000;
+}
+.form_button input {
+  display: block;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  background: #f8f8f8;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form_button button {
+  color: #79caaa;
+  border: 1px solid rgba(121, 202, 170, 0.3);
+  height: 44px;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #fff;
+  font-weight: 400;
+  font-family: Lato;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 38px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  user-select: none;
+  transform: translateY(0);
+  transition: all 0.3s;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+.form_button button:hover {
+  box-shadow: 0 4px 15px -5px rgba(121, 164, 202, 0.3);
+}
+
+.VisibilityRules__wrapper {
+  padding: 18px;
+  border-radius: 5px;
+  margin-top: 18px;
+  box-shadow: 0 4px 30px -13px rgba(0,0,0,0.4);
+}
+/* Custom css 20-06-2019 */
+.margin_bottom{
+
+  margin-bottom:15px;
+}
+.BtnV2, .introjs-button {
+  height: 38px;
+  padding: 0 30px;
+  font-size: 16px;
+  line-height: 1;
+  color: #79a4ca;
+  background-color: #fff;
+  font-weight: 400;
+  font-family: Lato;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 38px;
+  cursor: pointer;
+  white-space: nowrap;
+  text-decoration: none;
+  user-select: none;
+  transform: translateY(0);
+  transition: all 0.3s;
+  border: 1px solid rgba(121,164,202,0.3);
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+.VisibilityRules__close {
+  cursor: pointer;
+  opacity: 0.7;
+  transition: all 0.3s;
+  color: #bf4857;
+}
+
+
+
+
+
+

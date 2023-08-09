@@ -1,0 +1,133 @@
+.Appointment__confirmation {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    position: relative;
+    line-height: 19px;
+    background-color: #fff;
+    padding: 18px;
+    border-radius: 3px;
+    box-shadow: 0 4px 18px -8px rgba(0, 0, 0, 0.2);
+}
+
+.Appointment__confirmation_title {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 9px;
+    font-weight: 600;
+}
+
+.Appointment__confirmationtime {
+    margin-bottom: 3px;
+    font-size: 17px;
+}
+
+.Appointment__confirmationtime small {
+    display: inline;
+    opacity: 0.6;
+}
+
+.Appointment__edit {
+    position: absolute;
+    bottom: -10px;
+    right: 15px;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+    transform: scale(1);
+    opacity: 1;
+    background: #fff;
+    font-size: 20px;
+}
+
+.Appointment__time-picker {
+    background-color: #fff;
+    /* display: none; */
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.Appointment__time-picker-item {
+    overflow: hidden;
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Appointment__time-picker .BtnV2.Appointment__time-button {
+    margin: 0;
+    box-shadow: none;
+    font-size: 14px;
+    position: relative;
+    transform: none;
+    border: 0;
+    height: 40px;
+    color: #333;
+    font-weight: 300;
+    display: flex;
+    opacity: 1;
+    font-family: inherit;
+}
+.Appointment__time-picker .Appointment__time-button.selected-time,  
+.Appointment__time-picker .Appointment__time-button:hover 
+{
+    background: #4d7cea !important;
+}
+
+.BtnV2.BtnV2--fullwidth {
+    width: 100%;
+}
+
+.Appointment__time-picker-inner {
+    list-style-type: none;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    -webkit-backface-visibility: hidden;
+    height: 300px;
+    z-index: 1;
+    position: relative;
+}
+
+.Appointment__time-picker-item {
+    overflow: hidden;
+    width: 100%;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Appointment__wrapper .react-calendar {
+    width: 600px !important;
+    /* height: 300px !important; */
+    margin: 0 auto;
+}
+.Appointment__wrapper .cal {
+    margin-left: 285px;
+    margin-top: 100px;
+    width: 850px;
+}
+
+.Appointment__wrapper #timezone {
+    margin-left: 115px;
+}
+
+.Appointment__wrapper .calHeader {
+    margin-left: 65px;
+}
+
+.Appointment__time-picker-item .BtnV2.disabled-time {
+    background: #dcd7d7;
+    pointer-events: none;
+}

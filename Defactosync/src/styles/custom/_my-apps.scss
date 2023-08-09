@@ -1,0 +1,64 @@
+.apps-detail {
+  .apps-detail-header {
+    .jr-profile-banner:before {
+      background-color: rgb(255, 255, 255) !important;
+    }
+    .jr-profile-banner {
+      color: #0d0c0c !important;
+    }
+
+    .nodes-icons-container {
+      height: 60px;
+      width: 90px;
+      background: #6c80f5;
+      border-radius: 10px;
+
+      .nodes-icons {
+        margin-top: 9px;
+        border: 1px solid;
+        padding: 9px 10px;
+        border-radius: 10px;
+        background-color: rgb(255, 255, 255);
+        display: inline-block;
+      }
+    }
+
+    .icon-title {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  }
+  .apps-detail-body.task-history{
+    width: auto;
+  }
+  .apps-detail-body {
+    width: calc(100vw - 295px);
+
+    .heading {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .card {
+      border: 1px solid #eee;
+      margin-bottom: 15px;
+      box-shadow: 0 1px 8px -1px rgba(0, 0, 0, 0.2);
+
+      .card-body {
+        padding: 10px 24px;
+
+        .echo-connection-icon {
+          width: 30px;
+          height: 30px;
+          border: 0.5px solid #ccc;
+          border-radius: 5px;
+          padding: 5px;
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+    .card:hover {
+      box-shadow: 0 8px 8px -1px rgba(0, 0, 0, 0.4);
+    }
+  }
+}

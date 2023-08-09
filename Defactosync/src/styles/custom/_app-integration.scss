@@ -1,0 +1,29 @@
+.integration-Oauth-Header {
+    color: #354147;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 1.3em;
+    padding: 20px 0;
+}
+.required-color
+{
+    content: "(required)";
+    color: #ff4a00;
+    font-size: 11px;
+    padding-right: 3px;
+}
+
+.loader-settings
+{
+    position: absolute;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.integration-p-label
+{
+color: #5f6c72;
+font-size: 13px;
+}

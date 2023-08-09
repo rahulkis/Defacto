@@ -1,0 +1,350 @@
+[
+    {
+        "Id": 1,
+        "label": "Australian Capital Territory",
+        "value": "Australian Capital Territory",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 2,
+        "label": "New South Wales",
+        "value": "New South Wales",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 3,
+        "label": "Northern Territory",
+        "value": "Northern Territory",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 4,
+        "label": "Queensland",
+        "value": "Queensland",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 5,
+        "label": "South Australia",
+        "value": "South Australia",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 6,
+        "label": "Tasmania",
+        "value": "Tasmania",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 7,
+        "label": "Victoria",
+        "value": "Victoria",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 8,
+        "label": "Western Australia",
+        "value": "Western Australia",
+        "CountryId": "AU"
+    },
+    {
+        "Id": 9,
+        "label": "Alabama",
+        "value": "Alabama",
+        "CountryId": "US"
+    },
+    {
+        "Id": 10,
+        "label": "Alaska",
+        "value": "Alaska",
+        "CountryId": "US"
+    },
+    {
+        "Id": 11,
+        "label": "Arizona",
+        "value": "Arizona",
+        "CountryId": "US"
+    },
+    {
+        "Id": 12,
+        "label": "Arkansas",
+        "value": "Arkansas",
+        "CountryId": "US"
+    },
+    {
+        "Id": 13,
+        "label": "California",
+        "value": "California",
+        "CountryId": "US"
+    },
+    {
+        "Id": 14,
+        "label": "Colorado",
+        "value": "Colorado",
+        "CountryId": "US"
+    },
+    {
+        "Id": 15,
+        "label": "Connecticut",
+        "value": "Connecticut",
+        "CountryId": "US"
+    },
+    {
+        "Id": 16,
+        "label": "Delaware",
+        "value": "Delaware",
+        "CountryId": "US"
+    },
+    {
+        "Id": 17,
+        "label": "District of Columbia",
+        "value": "District of Columbia",
+        "CountryId": "US"
+    },
+    {
+        "Id": 18,
+        "label": "Florida",
+        "value": "Florida",
+        "CountryId": "US"
+    },
+    {
+        "Id": 19,
+        "label": "Georgia",
+        "value": "Georgia",
+        "CountryId": "US"
+    },
+    {
+        "Id": 20,
+        "label": "Hawaii",
+        "value": "Hawaii",
+        "CountryId": "US"
+    },
+    {
+        "Id": 21,
+        "label": "Idaho",
+        "value": "Idaho",
+        "CountryId": "US"
+    },
+    {
+        "Id": 22,
+        "label": "IIIinois",
+        "value": "IIIinois",
+        "CountryId": "US"
+    },
+    {
+        "Id": 23,
+        "label": "Indiana",
+        "value": "Indiana",
+        "CountryId": "US"
+    },
+    {
+        "Id": 24,
+        "label": "Iowa",
+        "value": "Iowa",
+        "CountryId": "US"
+    },
+    {
+        "Id": 25,
+        "label": "Kansa",
+        "value": "Kansa",
+        "CountryId": "US"
+    },
+    {
+        "Id": 26,
+        "label": "Kentucky",
+        "value": "Kentucky",
+        "CountryId": "US"
+    },
+    {
+        "Id": 27,
+        "label": "Lousiana",
+        "value": "Lousiana",
+        "CountryId": "US"
+    },
+    {
+        "Id": 28,
+        "label": "Maine",
+        "value": "Maine",
+        "CountryId": "US"
+    },
+    {
+        "Id": 29,
+        "label": "Maryland",
+        "value": "Maryland",
+        "CountryId": "US"
+    },
+    {
+        "Id": 30,
+        "label": "Massachusetts",
+        "value": "Massachusetts",
+        "CountryId": "US"
+    },
+    {
+        "Id": 31,
+        "label": "Michigan",
+        "value": "Michigan",
+        "CountryId": "US"
+    },
+    {
+        "Id": 32,
+        "label": "Minnesota",
+        "value": "Minnesota",
+        "CountryId": "US"
+    },
+    {
+        "Id": 33,
+        "label": "Mississippi",
+        "value": "Mississippi",
+        "CountryId": "US"
+    },
+    {
+        "Id": 34,
+        "label": "Missouri",
+        "value": "Missouri",
+        "CountryId": "US"
+    },
+    {
+        "Id": 35,
+        "label": "Montana",
+        "value": "Montana",
+        "CountryId": "US"
+    },
+    {
+        "Id": 36,
+        "label": "Nebraska",
+        "value": "Nebraska",
+        "CountryId": "US"
+    },
+    {
+        "Id": 37,
+        "label": "Nevada",
+        "value": "Nevada",
+        "CountryId": "US"
+    },
+    {
+        "Id": 38,
+        "label": "New Hampshire",
+        "value": "New Hampshire",
+        "CountryId": "US"
+    },
+    {
+        "Id": 39,
+        "label": "New Jersey",
+        "value": "New Jersey",
+        "CountryId": "US"
+    },
+    {
+        "Id": 40,
+        "label": "New Mexico",
+        "value": "New Mexico",
+        "CountryId": "US"
+    },
+    {
+        "Id": 41,
+        "label": "New York",
+        "value": "New York",
+        "CountryId": "US"
+    },
+    {
+        "Id": 42,
+        "label": "North Carolina",
+        "value": "North Carolina",
+        "CountryId": "US"
+    },
+    {
+        "Id": 43,
+        "label": "North Dakota",
+        "value": "North Dakota",
+        "CountryId": "US"
+    },
+    {
+        "Id": 44,
+        "label": "Ohio",
+        "value": "Ohio",
+        "CountryId": "US"
+    },
+    {
+        "Id": 45,
+        "label": "Oklahoma",
+        "value": "Oklahoma",
+        "CountryId": "US"
+    },
+    {
+        "Id": 46,
+        "label": "Oregon",
+        "value": "Oregon",
+        "CountryId": "US"
+    },
+    {
+        "Id": 47,
+        "label": "Pennsylvania",
+        "value": "Pennsylvania",
+        "CountryId": "US"
+    },
+    {
+        "Id": 48,
+        "label": "Rhode Island",
+        "value": "Rhode Island",
+        "CountryId": "US"
+    },
+    {
+        "Id": 49,
+        "label": "South Carolina",
+        "value": "South Carolina",
+        "CountryId": "US"
+    },
+    {
+        "Id": 50,
+        "label": "Tennessee",
+        "value": "Tennessee",
+        "CountryId": "US"
+    },
+    {
+        "Id": 51,
+        "label": "Texas",
+        "value": "Texas",
+        "CountryId": "US"
+    },
+    {
+        "Id": 52,
+        "label": "Utah",
+        "value": "Utah",
+        "CountryId": "US"
+    },
+    {
+        "Id": 53,
+        "label": "Vermont",
+        "value": "Vermont",
+        "CountryId": "US"
+    },
+    {
+        "Id": 54,
+        "label": "Virginia",
+        "value": "Virginia",
+        "CountryId": "US"
+    },
+    {
+        "Id": 55,
+        "label": "Washington",
+        "value": "Washington",
+        "CountryId": "US"
+    },
+    {
+        "Id": 56,
+        "label": "West Virginia",
+        "value": "West Virginia",
+        "CountryId": "US"
+    },
+    {
+        "Id": 57,
+        "label": "Wisconsin",
+        "value": "Wisconsin",
+        "CountryId": "US"
+    },
+    {
+        "Id": 58,
+        "label": "Wyoming",
+        "value": "Wyoming",
+        "CountryId": "US"
+    }
+]

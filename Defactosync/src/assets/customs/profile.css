@@ -1,0 +1,36 @@
+#profileName {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: rgb(217, 217, 217);
+    font-size: 35px;
+    color: #000000;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 60px;
+  }
+
+  #profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 60px;
+    border: 1px solid;
+  }
+
+  #profileLoader{
+      position: absolute;
+      margin-left: 640px;
+      z-index: 999
+  }
+  #profilImagebtn{
+  margin-left: 508px;
+  margin-top: 83px
+  }
+
+  .requiredFields:after {
+    content:" *";
+    color: #5d6266;
+  }

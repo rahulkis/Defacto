@@ -1,0 +1,256 @@
+import React from "react";
+
+class BooleansArticle extends React.Component {
+  constructor() {
+    super();
+    this.state = { copyFormulaName: "booleans" };
+  }
+  copyformula = (copyData, copyFormulaName, commentText, resultData) => {
+    this.props.copyformula(copyData, copyFormulaName, commentText, resultData);
+  };
+  render() {
+    return (
+      <div>
+        <h3>Booleans (true & false) </h3>
+        <p>
+          Booleans are a default data type in Paperform expressions. There are a
+          few unique things about booleans that are highlighted in the following
+          examples.
+        </p>
+        <div style={{ position: "relative" }}>
+          <a
+            href="#pablo"
+            className="a-copy"
+            onClick={() =>
+              this.copyformula(
+                "true != false",
+                this.state.copyFormulaName,
+                "// that's true!",
+                true != false
+              )
+            }
+          >
+            Copy
+            <i className="fa fa-clone" />
+          </a>
+          <div
+            className="FormTagInput Calculation__input"
+            style={{ position: "relative" }}
+          >
+            <div className="DraftEditor-root">
+              <div className="">
+                <div
+                  aria-describedby="placeholder-68ugd"
+                  className="public-DraftEditor-content calculation-placeHolder"
+                  contenteditable="false"
+                  spellcheck="false"
+                >
+                  <div data-contents="true">
+                    <div
+                      className=""
+                      data-block="true"
+                      data-editor="4968o"
+                      data-offset-key="1nhrd-0-0"
+                    >
+                      <div
+                        data-offset-key="1nhrd-0-0"
+                        class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                      >
+                        <span className="prism-token token boolean">
+                          <span data-offset-key="1nhrd-0-0">
+                            <span data-text="true">true</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-1-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token operator">
+                          <span data-offset-key="1nhrd-2-0">
+                            <span data-text="true">!=</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-3-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token boolean">
+                          <span data-offset-key="1nhrd-4-0">
+                            <span data-text="true">false</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-5-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token comment">
+                          <span data-offset-key="1nhrd-6-0">
+                            <span data-text="true">"// that's true!"</span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style={{ position: "relative" }}>
+          <a
+            href="#pablo"
+            className="a-copy"
+            onClick={() =>
+              this.copyformula(
+                "true + true",
+                this.state.copyFormulaName,
+                "// returns 2 (true when treated as a number returns 1, false returns 0)",
+                true + true
+              )
+            }
+          >
+            Copy
+            <i className="fa fa-clone" />
+          </a>
+          <div
+            className="FormTagInput Calculation__input"
+            style={{ position: "relative" }}
+          >
+            <div className="DraftEditor-root">
+              <div className="">
+                <div
+                  aria-describedby="placeholder-68ugd"
+                  className="public-DraftEditor-content calculation-placeHolder"
+                  contenteditable="false"
+                  spellcheck="false"
+                >
+                  <div data-contents="true">
+                    <div
+                      className=""
+                      data-block="true"
+                      data-editor="4968o"
+                      data-offset-key="1nhrd-0-0"
+                    >
+                      <div
+                        data-offset-key="1nhrd-0-0"
+                        class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                      >
+                        <span className="prism-token token boolean">
+                          <span data-offset-key="1nhrd-0-0">
+                            <span data-text="true">true</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-1-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token operator">
+                          <span data-offset-key="1nhrd-2-0">
+                            <span data-text="true">+</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-3-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token boolean">
+                          <span data-offset-key="1nhrd-4-0">
+                            <span data-text="true">true</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-5-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token comment">
+                          <span data-offset-key="1nhrd-6-0">
+                            <span data-text="true">
+                              "// returns 2 (true when treated as a number
+                              returns 1, false returns 0)"
+                            </span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style={{ position: "relative" }}>
+          <a
+            href="#pablo"
+            className="a-copy"
+            onClick={() =>
+              this.copyformula(
+                "false + false",
+                this.state.copyFormulaName,
+                "// returns 0",
+                false + false
+              )
+            }
+          >
+            Copy
+            <i className="fa fa-clone" />
+          </a>
+          <div
+            className="FormTagInput Calculation__input"
+            style={{ position: "relative" }}
+          >
+            <div className="DraftEditor-root">
+              <div className="">
+                <div
+                  aria-describedby="placeholder-68ugd"
+                  className="public-DraftEditor-content calculation-placeHolder"
+                  contenteditable="false"
+                  spellcheck="false"
+                >
+                  <div data-contents="true">
+                    <div
+                      className=""
+                      data-block="true"
+                      data-editor="4968o"
+                      data-offset-key="1nhrd-0-0"
+                    >
+                      <div
+                        data-offset-key="1nhrd-0-0"
+                        class="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                      >
+                        <span className="prism-token token boolean">
+                          <span data-offset-key="1nhrd-0-0">
+                            <span data-text="true">false </span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-1-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token operator">
+                          <span data-offset-key="1nhrd-2-0">
+                            <span data-text="true">+</span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-3-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token boolean">
+                          <span data-offset-key="1nhrd-4-0">
+                            <span data-text="true">false </span>
+                          </span>
+                        </span>
+                        <span data-offset-key="1nhrd-5-0">
+                          <span data-text="true"> </span>
+                        </span>
+                        <span className="prism-token token comment">
+                          <span data-offset-key="1nhrd-6-0">
+                            <span data-text="true">"// returns 0"</span>
+                          </span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+export default BooleansArticle;

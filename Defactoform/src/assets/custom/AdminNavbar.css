@@ -1,0 +1,68 @@
+.EditorTopBar__iconbtn.EditorTopBar__theme {
+    opacity: 0.7;
+    padding-top: 10px;
+}
+.EditorTopBar__iconbtn {
+    display: block;
+    height: 100%;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.theme-svg-icon1 {
+    vertical-align: middle; 
+    fill: url(&quot;#lgrad&quot;);
+}
+
+.theme-svg-icon2{
+    position: absolute; width: 0px; height: 0px; top: -100px;
+}
+
+.theme-stop-icon1{
+    stop-color: rgb(230, 31, 84); stop-opacity: 1;
+}
+
+.theme-stop-icon2{
+    stop-color: rgb(46, 157, 212); stop-opacity: 1;
+}
+.EditorTopBar__iconbtn svg {
+    height: 30px;
+    width: 30px;
+    fill: #b0c9e0;
+    transition: fill 0.3s;
+}
+.EditorTopBar__iconbtn svg:hover {
+    color: #344675 !important;
+}
+
+
+.trello-login-button {
+    height: 38px;
+    padding: 0 30px;
+    font-size: 16px;
+    line-height: 1;
+    color: #79a4ca !important;
+    background: #fff !important;
+    font-weight: 400;
+    font-family: Lato;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 38px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+    user-select: none;
+    transform: translateY(0);
+    transition: all 0.3s;
+    border: 1px solid rgba(121, 164, 202, 0.3);
+    box-shadow: 0 2px 0 #fbfbfb !important;
+  }
+  .trello-login-button:hover {
+    box-shadow: 2px 3px 10px #71899c !important;
+  }
+  button.trello-login-button:focus {outline:0 !important;}

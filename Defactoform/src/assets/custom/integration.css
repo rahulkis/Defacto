@@ -1,0 +1,307 @@
+._2qJAdUvXLdQixlGX3vOpbL {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ZtOZviTTkcmz3-DO_OzgS {
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+.mb1 {
+    margin-bottom: 18px;
+}
+._2PLFUU9OgtbELWQz3snC0b {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+
+   
+}
+
+.Paper.Paper--clickable {
+    cursor: pointer;
+}
+
+.Paper.Paper--padded {
+    padding: 18px;
+}
+.Paper {
+    background: #fff;
+    box-shadow: 0 2px 8px -3px rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+.ContextMenu__control {
+    outline: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.ContextMenu__wrapper{
+   
+}
+.ContextMenu.ContextMenu--closed {
+    transform: translateY(-10px);
+    opacity: 0;
+    pointer-events: none;
+}
+.ContextMenu.ContextMenu--open {
+    transform: translateY(5px);
+    opacity: 1;
+}
+
+
+.ContextMenu {
+    position: absolute;
+    background-color: #fff;
+    width: 175px;
+    max-height: 200px;
+    overflow: auto;
+    z-index: 5000;
+    transition: all 0.15s;
+    font-size: 14px;
+    border-radius: 3px;
+    font-weight: 400;
+    box-shadow: 0 3px 15px -3px rgba(0,0,0,0.3);
+}
+.ContextMenu__option {
+    font-size: 13px;
+    padding: 6px 18px;
+    cursor: pointer;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.div_class
+{
+    position:absolute;
+     top: 0px;
+      left: 0px; 
+      visibility: hidden;
+       height: 0px; overflow: scroll;
+        white-space: pre; 
+        font-size: 16px; 
+        font-weight: 400; 
+        font-style: normal; 
+        letter-spacing: normal; 
+        text-transform: none;
+}
+
+.AdoKE9nnvZr4_zfgdeh5N {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.Paper.Paper--double-padded {
+    padding: 36px;
+}
+
+.Paper {
+    background: #fff;
+    box-shadow: 0 2px 8px -3px rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+.mb1 {
+    margin-bottom: 18px;
+}
+.flex1 {
+    flex: 1;
+}
+.PaperType--h3 {
+    font-weight: 400;
+}
+.BtnV2.BtnV2--warning, .introjs-button.BtnV2--warning {
+    color: #bf4857;
+    border: 1px solid rgba(191,72,87,0.3);
+}
+.FieldConfigurationField:not(.FieldConfigurationField--half) {
+    margin-bottom: 36px;
+}
+.FieldConfigurationField {
+    width: 100%;
+}
+.FieldConfigurationField__i {
+    display: inline-block;
+    color: #79caaa;
+    position: relative;
+    cursor: pointer;
+}
+.FieldConfiguration__label {
+    font-size: 18px;
+    line-height: 24px;
+    color: #434a50;
+}
+.FieldConfiguration__value, .FieldConfiguration__label {
+    margin: 9px 0;
+}
+.FieldConfigurationField .Select {
+    font-weight: 300;
+}
+.Select, .Select div, .Select input, .Select span {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Select {
+    position: relative;
+}
+.Select-control {
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    cursor: default;
+    display: table;
+    height: 42px;
+    padding: 5px;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.FieldConfigurationField__description {
+    position: absolute;
+    left: calc(100%);
+    padding-left: 0;
+    top: -184px;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    min-width: 500px;
+    z-index: 100;
+    pointer-events: none;
+    opacity: 0;
+    transform: scale(0.5);
+    transform-origin: 0 50%;
+    transition: all 0.2s;
+}
+.FieldConfigurationField__descriptioninner {
+    padding: 17px 24px;
+    color: #79caaa;
+    box-shadow: 0 2px 21px 0 rgba(0,0,0,0.11);
+    border-radius: 100px;
+    pointer-events: all;
+    font-style: italic;
+    font-size: 13px;
+    line-height: 16px;
+    display: inline-flex;
+    align-items: center;
+    background-color: #fff;
+    height: 100%;
+}
+.FieldConfigurationField__i:hover .FieldConfigurationField__description {
+    opacity: 1;
+    transform: scale(1);
+}
+.FormTagInput.LiveField__input {
+    padding-top: 8px;
+}
+
+/* @media (min-width: 500px)
+.LiveField__input {
+    min-height: 38px;
+} */
+.LiveField__input {
+    background-color: transparent;
+    border-radius: 0;
+    -webkit-appearance: none;
+    display: block;
+    font-size: inherit;
+    font-family: inherit;
+    font-weight: 300;
+    color: inherit;
+    line-height: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid rgba(230,230,230,0.8);
+    outline: 0;
+}
+.FormTagInput {
+    margin-top: -8px;
+}
+.FieldConfigurationField__subfields {
+    padding: 9px 24px;
+    border: 3px solid #eee;
+    border-radius: 9px;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.webhook-Draft-Content
+{
+    outline: none; 
+    user-select: text; 
+    white-space: pre-wrap; 
+    overflow-wrap: break-word;
+}
+.webhook-Test-icon
+{
+    vertical-align: text-top;
+}
+.webhook-Form-style
+{
+    margin-top: 18px !important;
+    margin-bottom: 36px !important;
+    box-shadow:none !important;
+}
+.webhook-table
+{
+    background:none !important;
+}
+
+.webhook-table th
+{
+    background:none !important;
+}
+.webhook-text-input-align {
+    padding:5px !important;
+}
+.webhook-btn-align {
+    margin-top:20px;
+    margin-left:20px;
+}
+.editor-page.editor-page-wrapper.editor-page-align {
+    min-height: calc(15vh - 10px) !important;
+    padding-top: 50px;
+    overflow: visible;
+}
+.content-page-padding-bottom {
+    padding-bottom: 0px !important;;
+}
+.webhook-editor-page-padding {
+    padding:15px !important;
+}
+.webhook-content-page-padding {
+    padding-top:0px !important;
+}
+.webhook-table tbody td:first-child 
+{
+    padding:2px !important;
+}
+.webhook-collapse
+{
+    display:none;
+}

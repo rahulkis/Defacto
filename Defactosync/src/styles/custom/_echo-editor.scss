@@ -1,0 +1,133 @@
+@import "../bootstrap/variables";
+
+.echo-editor {
+  padding: 15px 30px !important;
+  .page-heading {
+    width: calc(100% - 85px);
+  }
+
+  .echo-editor-body {
+    position: absolute;
+    margin-top: 120px;
+    margin-right: 60px;
+    height: calc(100vh - 60px);
+    width: calc(100% - 85px);
+    overflow: scroll;
+
+    .trigger-action-selector-container {
+      width: 60%;
+      margin: auto;
+
+      .selector-header-icon {
+        font-size: 55px;
+        border: 0.5px solid;
+        padding: 5px;
+        border-radius: 10px;
+      }
+      .selector-event-icon {
+        font-size: 40px;
+        border: 0.5px solid $app-primary;
+        padding: 5px;
+        border-radius: 10px;
+      }
+
+      .card-body {
+        .selector-inner-wrapper {
+          border-radius: 10px;
+
+          .app-selector-btn {
+            border-radius: 10px !important;
+            justify-content: flex-start;
+            padding: 8px 12px !important;
+          }
+        }
+      }
+    }
+
+    .echo-node-container {
+      width: 60%;
+      margin: auto;
+
+      .header-app-icon {
+        width: 65px;
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 5px;
+      }
+
+      .card-body {
+        .selector-inner-wrapper {
+          border-radius: 10px;
+
+          .app-selector-btn {
+            border-radius: 10px !important;
+            justify-content: flex-start;
+            padding: 8px 12px !important;
+          }
+        }
+
+        .selection-steps-container {
+          .step-header {
+            height: 35px;
+
+            .step-header-title {
+              margin-bottom: 0px;
+              padding: 6px;
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+
+          .test-trigger-step {
+            .info-text {
+              font-size: 16px;
+
+              .app-account-name {
+                border-radius: 5px;
+                background: #eee;
+                padding: 5px;
+                margin-left: 10px;
+                white-space: nowrap;
+
+                img {
+                  width: 16px;
+                  margin-right: 5px;
+                }
+              }
+            }
+
+            .test-trigger-btn {
+              font-size: 18px !important;
+            }
+          }
+        }
+      }
+    }
+  }
+  .verticle-line-icon {
+    content: "";
+    background-color: #565656;
+    width: 2.7px;
+    height: 12px;
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  .add-node-button {
+    height: 30px !important;
+    width: 30px !important;
+  }
+
+  .custome-fields-help-text {
+    p {
+      margin-bottom: 0px !important;
+    }
+  }
+}
+
+.test-trigger-content {
+  .h2,
+  h4 {
+    font-weight: 600;
+  }
+}

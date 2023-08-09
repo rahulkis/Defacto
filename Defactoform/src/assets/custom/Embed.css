@@ -1,0 +1,106 @@
+.EditorPageWrapper--offset10 .EditorPageWrapper__inner >:nth-child(11) {
+    max-height: initial;
+}
+.EditorPageWrapper__inner > * {
+    width: 100vw;
+    max-height: calc(100vh - 80px);
+    display: inline-block;
+    vertical-align: top;
+}
+.EditorPage {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    min-height: calc(100vh - 80px);
+    padding-top: 44px;
+}
+.EditorPage__content {
+    width: 1076px;
+    padding: 54px 18px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.Paper.Paper--double-padded {
+    padding: 36px;
+}
+.Paper {
+    background: #fff;
+    box-shadow: 0 2px 8px -3px rgba(0,0,0,0.3);
+    border-radius: 3px;
+}
+.mb1 {
+    margin-bottom: 18px;
+}
+.flex1 {
+    flex: 1;
+}
+.PaperType--h2 {
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 18px;
+}
+h2 {
+    line-height: 1.2;
+    margin: 0;
+}
+.FieldConfiguration__input {
+    width: 100%;
+    background-color: #f8f8f8;
+    border: 0;
+    padding: 0 15px;
+    font-size: 16px ;
+    font-family: "Lato" ;
+    font-weight: 300;
+    outline: 0;
+    height: 40px;
+    border-radius: 4px;
+}
+textarea {
+    overflow: auto;
+}
+
+.field_textarea
+{
+    width: 100% !important;
+    height: 100px !important;
+    resize: horizontal;
+}
+.FieldConfigurationField__descriptionInline {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    color: #79caaa;
+    margin: 9px 0;
+    padding-bottom: 2px;
+}
+textarea.FieldConfiguration__input {
+    padding: 15px;
+}
+.FieldConfigurationField__descriptioninlineinner {
+    font-size: 14px;
+    line-height: 18px;
+    font-style: italic;
+    color: #79caaa !important;
+    margin: 9px 0 !important;
+    padding-bottom: 2px !important;
+}
+
+.EditorPage__content--embeds pre {
+    background-color: #eaf5f1;
+    padding: 4px;
+    color: #3db485;
+}
+.Embed-div-align{
+margin: 9px 0px;
+font-size: 17px;
+}
+.Embed-div-align pre{
+    display: inline;
+}
+
+.EditorPage__content--embeds pre {
+    background-color: #eaf5f1;
+    padding: 4px;
+    color: #3db485 !important;
+}

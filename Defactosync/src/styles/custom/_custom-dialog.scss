@@ -1,0 +1,22 @@
+.new-app-connection-dialog {
+  .new-app-dialog-content {
+    min-width: 40vw;
+    min-height: 60vh;
+  }
+}
+
+.node-selector-modal {
+  .modal-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .selector-inner-wrapper {
+    max-height: 60vh;
+    .random-apps-list {
+      max-height: 38vh;
+      overflow: auto;
+    }
+  }
+}
